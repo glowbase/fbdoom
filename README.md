@@ -1,5 +1,6 @@
 # fbDOOM
-===============
+=====================
+
 Adaptation of the original DOOM to be easily portable to framebuffer devices with minimal dependencies.
 
 ### Runs on:
@@ -15,8 +16,14 @@ cd fbdoom
 make CROSS_COMPILE=arm-linux-gnueabihf-
 ```
 
+### To run:
+```sh
+./fbdoom -iwad doom1.wad # flythrough demo
+./fbdoom -iwad doom1.wad -warp 1 1 # playable level
+```
+
 # Original README
-===============
+=====================
 
 Here it is, at long last.  The DOOM source code is released for your
 non-profit use.  You still need real DOOM data to work with this code.
