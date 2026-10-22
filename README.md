@@ -1,6 +1,4 @@
-# fbDOOM
-=====================
-
+# fbDOOM (Framebuffer DOOM)
 Adaptation of the original DOOM to be easily portable to framebuffer devices with minimal dependencies.
 
 ### Runs on:
@@ -23,8 +21,6 @@ make CROSS_COMPILE=arm-linux-gnueabihf-
 ```
 
 # Original README
-=====================
-
 Here it is, at long last.  The DOOM source code is released for your
 non-profit use.  You still need real DOOM data to work with this code.
 If you don't actually own a real copy of one of the DOOMs, you should
