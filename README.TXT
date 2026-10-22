@@ -1,22 +1,21 @@
-================
-= fbDOOM =
-================
+# fbDOOM
+===============
+Adaptation of the original DOOM to be easily portable to framebuffer devices with minimal dependencies.
 
-Adaptation of the original DOOM
-to be easily portable to framebuffer devices with minimal depenencies.
-Runs on:
-* Plain desktop Linux framebuffer,
-* Siglent SSA 3021X Spectrum Analyzer,
-* Frosted OS,
-* Kinco Green Series GL070HE HMI,
+### Runs on:
+* Plain desktop Linux framebuffer
+* Siglent SSA 3021X Spectrum Analyzer
+* Frosted OS
+* Kinco Green Series GL070HE HMI
 * Kinco MT4434TE HMI
 
-To build (example):
-* cd fbdoom
-* make CROSS_COMPILE=arm-linux-gnueabihf-
+### To build (example):
+```sh
+cd fbdoom
+make CROSS_COMPILE=arm-linux-gnueabihf-
+```
 
-
-Original readme
+# Original README
 ===============
 
 Here it is, at long last.  The DOOM source code is released for your
